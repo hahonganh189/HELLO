@@ -8,4 +8,8 @@ if($a == 0){
     }else{
         echo 'phuong trinh vo nghiem';
     }
+}else{
+    $x = - $b / $a;
+    echo " Pt co nghiem : $x ";
 }
+?>
